@@ -1,0 +1,13 @@
+créer un espace de jeu : 
+-un espace de jeu vide aux dimensions données (2D)
+
+positionner un nouveau vaisseau dans l'espace de jeu : 
+
+
+faire déplacer le vaisseau vers la droite :
+-faire déplacer le vaisseau vers la droite grâce à la touche définie et la vitesse définie
+-ne pas aller plus loin que le bord de la fenetre
+
+faire déplacer le vaisseau vers la gauche:
+-faire déplacer le vaisseau vers la gauche grâce à la touche définie et la vitesse définie
+-ne pas aller plus loin que le bord de la fenetre
