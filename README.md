@@ -6,6 +6,7 @@
 ## Semaine n°1 : du xx au xx avril <a id="semaine1"></a>
 
 ### Fonctionnalité en cours d’implémentation : 
+
 #### Fonctionnalité n°1 : Déplacer un vaisseau dans l'espace de jeu (en cours)
 
 - Story n°1 : Créer un espace de jeu  
