@@ -31,7 +31,7 @@ Si le vaisseau se trouve sur la bordure droite de l'espace de jeu, le vaisseau d
 
 ![Diagrammes de classes de la semaine 1](images/diagramme_1.jpg)
 
-### Nuage de mots du projet spaceinvaders (séance n°1)  
+### Nuage de mots du projet spaceinvaders (semaine n°1)  
 
 ![Nuage de mots de la semaine 1](images/Semaine_1.png)
 
