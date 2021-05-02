@@ -3,7 +3,7 @@
 - [Semaine n°1 : du 26 au 30 avril](#semaine1)
 - [Glossaire](#glossaire)
 
-## Semaine n°1 : du xx au xx avril <a id="semaine1"></a>
+## Semaine n°1 : du 26 au 30 avril <a id="semaine1"></a>
 
 ### Fonctionnalité en cours d’implémentation : 
 
