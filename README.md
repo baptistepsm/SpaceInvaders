@@ -14,7 +14,7 @@
 Le vaisseau se déplace d'un pas vers la droite 
 Si le vaisseau se trouve sur la bordure droite de l'espace de jeu, le vaisseau doit rester immobile (aucun déplacement, aucune exception levée : le vaisseau reste juste à sa position actuelle).
 
--Story n°4 : Déplacer le vaisseau vers la gauche dans l'espace de jeu
+- Story n°4 : Déplacer le vaisseau vers la gauche dans l'espace de jeu
 Le vaisseau se déplace d'un pas vers la gauche Si le vaisseau se trouve sur la bordure gauche de l'espace de jeu, le vaisseau doit rester immobile (aucun déplacement, aucune exception levée : le vaisseau reste juste à sa position actuelle).
 
 #### Fonctionnalité n°2 : Dimensionner le vaiseau  
