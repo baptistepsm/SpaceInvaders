@@ -163,8 +163,6 @@ public class SpaceInvaders implements Jeu {
             this.missile = null;
         }
 
-
-
     }
 
 }

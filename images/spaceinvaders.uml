@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fr.unilim.iut.spaceinvaders</OriginalElement>
+  <nodes>
+    <node x="267.2916401184888" y="799.0">fr.unilim.iut.spaceinvaders.Vaisseau</node>
+    <node x="629.7077702325059" y="55.0">fr.unilim.iut.spaceinvaders.Dimension</node>
+    <node x="976.0827702325059" y="811.0">fr.unilim.iut.spaceinvaders.moteurJeu</node>
+    <node x="152.98277023250586" y="1172.5">fr.unilim.iut.spaceinvaders.VaisseauTest</node>
+    <node x="351.9167980102836" y="55.0">fr.unilim.iut.spaceinvaders.Position</node>
+    <node x="0.0" y="1382.5">fr.unilim.iut.spaceinvaders.SpaceInvadersTest</node>
+    <node x="722.2546040129668" y="1371.0">fr.unilim.iut.spaceinvaders.DessinSpaceInvaders</node>
+    <node x="595.6883928571428" y="574.0">fr.unilim.iut.spaceinvaders.Missile</node>
+    <node x="1164.082770232506" y="678.0">fr.unilim.iut.spaceinvaders.Constante</node>
+    <node x="643.2188897272524" y="1094.0">fr.unilim.iut.spaceinvaders.SpaceInvaders</node>
+    <node x="865.2546040129668" y="1508.0">fr.unilim.iut.spaceinvaders.Main</node>
+    <node x="818.4876397272524" y="0.0">fr.unilim.iut.spaceinvaders.Direction</node>
+    <node x="549.5188897272524" y="329.0">fr.unilim.iut.spaceinvaders.Sprite</node>
+    <node x="89.69999999999999" y="586.0">fr.unilim.iut.spaceinvaders.utils</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fr.unilim.iut.spaceinvaders.Vaisseau" target="fr.unilim.iut.spaceinvaders.Sprite">
+      <point x="43.3125" y="-27.0" />
+      <point x="426.1041401184888" y="658.0" />
+      <point x="418.7807623518894" y="658.0" />
+      <point x="418.7807623518894" y="554.0" />
+      <point x="630.5188897272524" y="554.0" />
+      <point x="-27.0" y="82.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Vaisseau" target="fr.unilim.iut.spaceinvaders.Missile">
+      <point x="72.1875" y="-27.0" />
+      <point x="454.9791401184888" y="648.0" />
+      <point x="617.8883928571429" y="648.0" />
+      <point x="-88.79999999999995" y="27.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.SpaceInvaders" target="fr.unilim.iut.spaceinvaders.Constante">
+      <point x="84.03571428571433" y="-93.5" />
+      <point x="817.7546040129668" y="1074.0" />
+      <point x="1211.832770232506" y="1074.0" />
+      <point x="-47.75" y="148.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.VaisseauTest" target="fr.unilim.iut.spaceinvaders.utils">
+      <point x="-28.80000000000001" y="-15.0" />
+      <point x="196.18277023250585" y="1064.0" />
+      <point x="152.48277023250586" y="1064.0" />
+      <point x="152.48277023250586" y="658.0" />
+      <point x="140.7" y="658.0" />
+      <point x="-17.0" y="15.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Vaisseau" target="fr.unilim.iut.spaceinvaders.utils">
+      <point x="-101.0625" y="-27.0" />
+      <point x="281.7291401184888" y="658.0" />
+      <point x="208.7" y="658.0" />
+      <point x="51.0" y="15.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Sprite" target="fr.unilim.iut.spaceinvaders.Position">
+      <point x="-86.39999999999998" y="-82.5" />
+      <point x="571.1188897272524" y="239.0" />
+      <point x="466.0834646769503" y="239.0" />
+      <point x="45.666666666666686" y="49.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Vaisseau" target="fr.unilim.iut.spaceinvaders.Dimension">
+      <point x="-14.4375" y="-27.0" />
+      <point x="368.3541401184888" y="658.0" />
+      <point x="385.6196428571429" y="658.0" />
+      <point x="385.6196428571429" y="534.0" />
+      <point x="446.8001397272524" y="534.0" />
+      <point x="446.8001397272524" y="289.0" />
+      <point x="676.8952702325059" y="289.0" />
+      <point x="-28.3125" y="49.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.SpaceInvaders" target="fr.unilim.iut.spaceinvaders.moteurJeu">
+      <point x="58.178571428571445" y="-93.5" />
+      <point x="791.8974611558239" y="1054.0" />
+      <point x="1049.582770232506" y="1054.0" />
+      <point x="-10.5" y="15.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Main" target="fr.unilim.iut.spaceinvaders.Constante">
+      <point x="34.28571428571428" y="-15.0" />
+      <point x="939.5403182986811" y="1488.0" />
+      <point x="1307.332770232506" y="1488.0" />
+      <point x="47.75" y="148.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.SpaceInvadersTest" target="fr.unilim.iut.spaceinvaders.SpaceInvaders">
+      <point x="16.75" y="-27.0" />
+      <point x="117.25" y="1311.0" />
+      <point x="656.1474611558239" y="1311.0" />
+      <point x="-77.57142857142856" y="93.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.SpaceInvaders" target="fr.unilim.iut.spaceinvaders.Dimension">
+      <point x="32.321428571428555" y="-93.5" />
+      <point x="766.040318298681" y="1034.0" />
+      <point x="847.7978901184888" y="1034.0" />
+      <point x="847.7978901184888" y="279.0" />
+      <point x="771.2702702325059" y="279.0" />
+      <point x="66.0625" y="49.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.DessinSpaceInvaders" target="fr.unilim.iut.spaceinvaders.moteurJeu">
+      <point x="97.60000000000002" y="-38.5" />
+      <point x="941.8546040129668" y="1351.0" />
+      <point x="1093.6571428571428" y="1351.0" />
+      <point x="1093.6571428571428" y="1064.0" />
+      <point x="1091.582770232506" y="1064.0" />
+      <point x="31.5" y="15.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.SpaceInvaders" target="fr.unilim.iut.spaceinvaders.Direction">
+      <point x="45.25" y="-93.5" />
+      <point x="778.9688897272524" y="1044.0" />
+      <point x="909.9876397272524" y="1044.0" />
+      <point x="30.5" y="104.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Missile" target="fr.unilim.iut.spaceinvaders.Sprite">
+      <point x="27.75" y="-27.0" />
+      <point x="734.4383928571428" y="554.0" />
+      <point x="738.5188897272524" y="554.0" />
+      <point x="81.0" y="82.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.SpaceInvadersTest" target="fr.unilim.iut.spaceinvaders.Position">
+      <point x="-83.75" y="-27.0" />
+      <point x="16.75" y="1351.0" />
+      <point x="39.25" y="1351.0" />
+      <point x="39.25" y="229.0" />
+      <point x="359.5279091213947" y="229.0" />
+      <point x="-60.888888888888914" y="49.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Main" target="fr.unilim.iut.spaceinvaders.moteurJeu">
+      <point x="11.428571428571445" y="-15.0" />
+      <point x="916.6831754415382" y="1468.0" />
+      <point x="1143.4718924659064" y="1468.0" />
+      <point x="1143.4718924659064" y="1064.0" />
+      <point x="1112.582770232506" y="1064.0" />
+      <point x="52.5" y="15.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Sprite" target="fr.unilim.iut.spaceinvaders.Dimension">
+      <point x="0.0" y="-82.5" />
+      <point x="657.5188897272524" y="299.0" />
+      <point x="695.7702702325059" y="299.0" />
+      <point x="-9.4375" y="49.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.DessinSpaceInvaders" target="fr.unilim.iut.spaceinvaders.Vaisseau">
+      <point x="-97.60000000000002" y="-38.5" />
+      <point x="746.6546040129667" y="1301.0" />
+      <point x="331.73277023250586" y="1301.0" />
+      <point x="331.73277023250586" y="1074.0" />
+      <point x="363.5416401184888" y="1074.0" />
+      <point x="-19.25" y="27.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.SpaceInvaders" target="fr.unilim.iut.spaceinvaders.Missile">
+      <point x="6.464285714285722" y="-93.5" />
+      <point x="739.2188897272524" y="658.0" />
+      <point x="751.0883928571429" y="658.0" />
+      <point x="44.40000000000009" y="27.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Vaisseau" target="fr.unilim.iut.spaceinvaders.Position">
+      <point x="-43.3125" y="-27.0" />
+      <point x="339.4791401184888" y="658.0" />
+      <point x="341.35777023250586" y="658.0" />
+      <point x="341.35777023250586" y="259.0" />
+      <point x="405.1945757880614" y="259.0" />
+      <point x="-15.222222222222229" y="49.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.moteurJeu" target="fr.unilim.iut.spaceinvaders.moteurJeu">
+      <point x="-31.5" y="15.0" />
+      <point x="1028.582770232506" y="881.0" />
+      <point x="936.0827702325059" y="881.0" />
+      <point x="936.0827702325059" y="816.0" />
+      <point x="-84.0" y="-10.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.SpaceInvadersTest" target="fr.unilim.iut.spaceinvaders.utils">
+      <point x="-16.75" y="-27.0" />
+      <point x="83.75" y="1351.0" />
+      <point x="61.25" y="1351.0" />
+      <point x="61.25" y="658.0" />
+      <point x="106.69999999999999" y="658.0" />
+      <point x="-51.0" y="15.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.VaisseauTest" target="fr.unilim.iut.spaceinvaders.Position">
+      <point x="-57.60000000000002" y="-15.0" />
+      <point x="167.38277023250583" y="1074.0" />
+      <point x="79.19999999999999" y="1074.0" />
+      <point x="79.19999999999999" y="239.0" />
+      <point x="374.75013134361694" y="239.0" />
+      <point x="-45.666666666666686" y="49.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.SpaceInvadersTest" target="fr.unilim.iut.spaceinvaders.Dimension">
+      <point x="-50.25" y="-27.0" />
+      <point x="50.25" y="514.0" />
+      <point x="330.35777023250586" y="514.0" />
+      <point x="330.35777023250586" y="269.0" />
+      <point x="639.1452702325059" y="269.0" />
+      <point x="-66.0625" y="49.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.VaisseauTest" target="fr.unilim.iut.spaceinvaders.Vaisseau">
+      <point x="28.80000000000001" y="-15.0" />
+      <point x="253.78277023250587" y="1064.0" />
+      <point x="286.5416401184888" y="1064.0" />
+      <point x="-96.25" y="27.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.SpaceInvaders" target="fr.unilim.iut.spaceinvaders.Vaisseau">
+      <point x="-71.10714285714283" y="-93.5" />
+      <point x="662.6117468701096" y="1034.0" />
+      <point x="402.0416401184888" y="1034.0" />
+      <point x="19.25" y="27.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.SpaceInvaders" target="fr.unilim.iut.spaceinvaders.Position">
+      <point x="-19.39285714285711" y="-93.5" />
+      <point x="714.3260325843953" y="994.0" />
+      <point x="528.0188897272524" y="994.0" />
+      <point x="528.0188897272524" y="259.0" />
+      <point x="435.63902023250586" y="259.0" />
+      <point x="15.222222222222229" y="49.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Missile" target="fr.unilim.iut.spaceinvaders.Dimension">
+      <point x="83.25" y="-27.0" />
+      <point x="789.9383928571428" y="554.0" />
+      <point x="798.6438897272524" y="554.0" />
+      <point x="798.6438897272524" y="299.0" />
+      <point x="733.5202702325059" y="299.0" />
+      <point x="28.3125" y="49.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.VaisseauTest" target="fr.unilim.iut.spaceinvaders.Dimension">
+      <point x="0.0" y="-15.0" />
+      <point x="224.98277023250586" y="1054.0" />
+      <point x="256.7916401184888" y="1054.0" />
+      <point x="256.7916401184888" y="524.0" />
+      <point x="424.63902023250586" y="524.0" />
+      <point x="424.63902023250586" y="279.0" />
+      <point x="658.0202702325059" y="279.0" />
+      <point x="-47.1875" y="49.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Main" target="fr.unilim.iut.spaceinvaders.DessinSpaceInvaders">
+      <point x="-11.428571428571388" y="-15.0" />
+      <point x="893.8260325843953" y="1468.0" />
+      <point x="783.2546040129668" y="1468.0" />
+      <point x="-61.0" y="38.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.SpaceInvaders" target="fr.unilim.iut.spaceinvaders.utils">
+      <point x="-84.03571428571422" y="-93.5" />
+      <point x="649.6831754415382" y="1044.0" />
+      <point x="183.79164011848877" y="1044.0" />
+      <point x="183.79164011848877" y="658.0" />
+      <point x="174.7" y="658.0" />
+      <point x="17.0" y="15.0" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Main" target="fr.unilim.iut.spaceinvaders.SpaceInvaders">
+      <point x="-34.28571428571428" y="-15.0" />
+      <point x="870.9688897272524" y="1488.0" />
+      <point x="700.7546040129668" y="1488.0" />
+      <point x="700.7546040129668" y="1341.0" />
+      <point x="733.7188897272524" y="1341.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Sprite" target="fr.unilim.iut.spaceinvaders.Direction">
+      <point x="86.39999999999998" y="-82.5" />
+      <point x="743.9188897272523" y="309.0" />
+      <point x="848.9876397272524" y="309.0" />
+      <point x="-30.5" y="104.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.DessinSpaceInvaders" target="fr.unilim.iut.spaceinvaders.SpaceInvaders">
+      <point x="-48.80000000000001" y="-38.5" />
+      <point x="795.4546040129667" y="1351.0" />
+      <point x="785.4331754415381" y="1351.0" />
+      <point x="51.714285714285666" y="93.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.Missile" target="fr.unilim.iut.spaceinvaders.Position">
+      <point x="-83.25" y="-27.0" />
+      <point x="623.4383928571428" y="534.0" />
+      <point x="539.0188897272524" y="534.0" />
+      <point x="539.0188897272524" y="249.0" />
+      <point x="450.8612424547281" y="249.0" />
+      <point x="30.444444444444457" y="49.5" />
+    </edge>
+    <edge source="fr.unilim.iut.spaceinvaders.DessinSpaceInvaders" target="fr.unilim.iut.spaceinvaders.Missile">
+      <point x="48.80000000000001" y="-38.5" />
+      <point x="893.0546040129668" y="1351.0" />
+      <point x="925.5827702325059" y="1351.0" />
+      <point x="925.5827702325059" y="658.0" />
+      <point x="795.488392857143" y="658.0" />
+      <point x="88.80000000000007" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="787.2222222222222" y="472.22222222222223" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
