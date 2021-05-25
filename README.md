@@ -1,8 +1,48 @@
 # SpaceInvaders
 
+- [Semaine n°3 : du 17 au 21 mai](#semaine3)
 - [Semaine n°2 : du 10 au 14 mai](#semaine2)
 - [Semaine n°1 : du 26 au 30 avril](#semaine1)
 - [Glossaire](#glossaire)
+
+
+
+## Semaine n°3 : du 17 au 21 mai <a id="semaine3"></a>
+
+### Sprints et fonctionnalités réalisées : 
+
+#### L'interface graphique a été faite
+
+#### Fonctionnalité n°3 : Choisir la vitesse du vaisseau (terminée)
+- Etape n°1 : Ajouter la vitesse au Vaisseau sans régression de comportement 
+Attribut vitesse qui va permettre au vaisseau de se déplacer avec une vitesse pour le moment non paramétrable
+- Etape n°2 : Régler la vitesse du vaisseau 
+La vitesse du vaisseau est désormais paramétrable
+- Etape n°3 : Faire en sorte que le déplacement se fasse correctement pour une vitesse quelconque 
+Le vaisseau doit se déplacer correctement quel que soit la vitesse demandée par l'utilisateur
+- Etape n°4 : Gestion graphique du vaisseau
+Le vaisseau doit apparaitre et se déplacer avec une vitesse donnée à l'aide des flèches directionnelles dans l'espace de jeu
+
+#### Fonctionnalité n°4 : Tirer un missile depuis le vaisseau (terminée)
+- Etape n°1 : Tirer un missile
+Permet à l'utilisateur de tirer un missile qui se positionne bien par rapport au vaisseau
+- Etape n°2 : Gestion du missile dans le moteur graphique
+Le missile apparait dans la fenetre graphique et le missile peut être tiré avec la barre espace
+- Etape n°3 : Faire déplacer le missile à la verticale de manière autonome 
+Le missile tiré doit se déplacer tout seul vers le bord supérieur de l'écran et disparaitre une fois le bord atteint. 
+
+
+### Diagramme de classes (semaine n°3)  
+
+![Diagrammes de classes de la semaine 1](images/diagramme_S3.jpg)
+
+### Nuage de mots du projet spaceinvaders (semaine n°3)  
+
+![Nuage de mots de la semaine 1](images/nuageMots_S3.png)
+
+
+### Difficultés rencontrées 
+Aucune difficulté rencontrée
 
 ## Semaine n°2 : du 10 au 14 mai <a id="semaine2"></a>
 
@@ -28,11 +68,11 @@ Le vaisseau doit se déplacer vers la droite sans dépasser de l'espace de jeu.
 Le vaisseau doit se déplacer vers la droite sans dépasser de l'espace de jeu.
 
 
-### Diagramme de classes 
+### Diagramme de classes (semaine n°2)  
 
 ![Diagrammes de classes de la semaine 1](images/diagramme_S2.jpg)
 
-### Nuage de mots du projet spaceinvaders (semaine n°1)  
+### Nuage de mots du projet spaceinvaders (semaine n°2)  
 
 ![Nuage de mots de la semaine 1](images/nuageMots_S2.png)
 
@@ -64,7 +104,7 @@ Le vaisseau se déplace d'un pas vers la droite
 Si le vaisseau se trouve sur la bordure droite de l'espace de jeu, le vaisseau doit rester immobile (aucun déplacement, aucune exception levée : le vaisseau reste juste à sa position actuelle).
 
 
-### Diagramme de classes 
+### Diagramme de classes (semaine n°1)  
 
 ![Diagrammes de classes de la semaine 1](images/diagramme_S1.jpg)
 
@@ -90,5 +130,7 @@ Dans la story n°2, j'ai eu un problème lors du refactoring de la méthode aUnV
 
 
 * **Missile** :  projectile envoyé à la verticale par le vaisseau vers l'envahisseur dans le but de le détruire.
+
+* **Vitesse** :  unité qui mesure le déplacement d'un objet ou d'une personne sur une seule dimension dans notre cas.
 
 ------------- 
