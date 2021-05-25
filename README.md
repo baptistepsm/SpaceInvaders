@@ -42,7 +42,7 @@ Le missile tiré doit se déplacer tout seul vers le bord supérieur de l'écran
 
 
 ### Difficultés rencontrées 
-Aucune difficulté rencontrée
+Difficultés sur la fin de la fonctionnalité 4 car j'avais des tests qui ne passaient pas et j'ai dû me reprendre à plusieurs fois avant de voir où était mon erreur ce qui m'a beaucoup ralenti. 
 
 ## Semaine n°2 : du 10 au 14 mai <a id="semaine2"></a>
 
