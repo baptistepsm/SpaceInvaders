@@ -70,11 +70,11 @@ Le vaisseau doit se déplacer vers la droite sans dépasser de l'espace de jeu.
 
 ### Diagramme de classes (semaine n°2)  
 
-![Diagrammes de classes de la semaine 1](images/diagramme_S2.jpg)
+![Diagrammes de classes de la semaine 2](images/diagramme_S2.jpg)
 
 ### Nuage de mots du projet spaceinvaders (semaine n°2)  
 
-![Nuage de mots de la semaine 1](images/nuageMots_S2.png)
+![Nuage de mots de la semaine 2](images/nuageMots_S2.png)
 
 
 ### Difficultés rencontrées 
